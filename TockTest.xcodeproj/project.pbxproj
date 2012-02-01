@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96B4694A14D9B80A0010EDDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B4694914D9B80A0010EDDF /* UIKit.framework */; };
+		96B4694C14D9B80A0010EDDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B4694B14D9B80A0010EDDF /* Foundation.framework */; };
+		96B4694E14D9B80A0010EDDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B4694D14D9B80A0010EDDF /* CoreGraphics.framework */; };
+		96B4695414D9B80A0010EDDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96B4695214D9B80A0010EDDF /* InfoPlist.strings */; };
+		96B4695614D9B80A0010EDDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B4695514D9B80A0010EDDF /* main.m */; };
+		96B4695A14D9B80A0010EDDF /* TockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B4695914D9B80A0010EDDF /* TockAppDelegate.m */; };
+		96B4695D14D9B80A0010EDDF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B4695B14D9B80A0010EDDF /* MainStoryboard.storyboard */; };
+		96B4696014D9B80A0010EDDF /* TockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B4695F14D9B80A0010EDDF /* TockViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96B4694514D9B80A0010EDDF /* TockTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TockTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B4694914D9B80A0010EDDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96B4694B14D9B80A0010EDDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96B4694D14D9B80A0010EDDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96B4695114D9B80A0010EDDF /* TockTest-Info.plist */ = {isa = PBXFileReference; path = "TockTest-Info.plist"; sourceTree = "<group>"; };
+		96B4695314D9B80A0010EDDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96B4695514D9B80A0010EDDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96B4695714D9B80A0010EDDF /* TockTest-Prefix.pch */ = {isa = PBXFileReference; path = "TockTest-Prefix.pch"; sourceTree = "<group>"; };
+		96B4695814D9B80A0010EDDF /* TockAppDelegate.h */ = {isa = PBXFileReference; path = TockAppDelegate.h; sourceTree = "<group>"; };
+		96B4695914D9B80A0010EDDF /* TockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TockAppDelegate.m; sourceTree = "<group>"; };
+		96B4695C14D9B80A0010EDDF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		96B4695E14D9B80A0010EDDF /* TockViewController.h */ = {isa = PBXFileReference; path = TockViewController.h; sourceTree = "<group>"; };
+		96B4695F14D9B80A0010EDDF /* TockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TockViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96B4694214D9B80A0010EDDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B4694A14D9B80A0010EDDF /* UIKit.framework in Frameworks */,
+				96B4694C14D9B80A0010EDDF /* Foundation.framework in Frameworks */,
+				96B4694E14D9B80A0010EDDF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96B4693A14D9B80A0010EDDF = {
+			isa = PBXGroup;
+			children = (
+				96B4694F14D9B80A0010EDDF /* TockTest */,
+				96B4694814D9B80A0010EDDF /* Frameworks */,
+				96B4694614D9B80A0010EDDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96B4694614D9B80A0010EDDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96B4694514D9B80A0010EDDF /* TockTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96B4694814D9B80A0010EDDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96B4694914D9B80A0010EDDF /* UIKit.framework */,
+				96B4694B14D9B80A0010EDDF /* Foundation.framework */,
+				96B4694D14D9B80A0010EDDF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96B4694F14D9B80A0010EDDF /* TockTest */ = {
+			isa = PBXGroup;
+			children = (
+				96B4695814D9B80A0010EDDF /* TockAppDelegate.h */,
+				96B4695914D9B80A0010EDDF /* TockAppDelegate.m */,
+				96B4695B14D9B80A0010EDDF /* MainStoryboard.storyboard */,
+				96B4695E14D9B80A0010EDDF /* TockViewController.h */,
+				96B4695F14D9B80A0010EDDF /* TockViewController.m */,
+				96B4695014D9B80A0010EDDF /* Supporting Files */,
+			);
+			path = TockTest;
+			sourceTree = "<group>";
+		};
+		96B4695014D9B80A0010EDDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96B4695114D9B80A0010EDDF /* TockTest-Info.plist */,
+				96B4695214D9B80A0010EDDF /* InfoPlist.strings */,
+				96B4695514D9B80A0010EDDF /* main.m */,
+				96B4695714D9B80A0010EDDF /* TockTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96B4694414D9B80A0010EDDF /* TockTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B4696314D9B80A0010EDDF /* Build configuration list for PBXNativeTarget "TockTest" */;
+			buildPhases = (
+				96B4694114D9B80A0010EDDF /* Sources */,
+				96B4694214D9B80A0010EDDF /* Frameworks */,
+				96B4694314D9B80A0010EDDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TockTest;
+			productName = TockTest;
+			productReference = 96B4694514D9B80A0010EDDF /* TockTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96B4693C14D9B80A0010EDDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 96B4693F14D9B80A0010EDDF /* Build configuration list for PBXProject "TockTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96B4693A14D9B80A0010EDDF;
+			productRefGroup = 96B4694614D9B80A0010EDDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96B4694414D9B80A0010EDDF /* TockTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96B4694314D9B80A0010EDDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B4695414D9B80A0010EDDF /* InfoPlist.strings in Resources */,
+				96B4695D14D9B80A0010EDDF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96B4694114D9B80A0010EDDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B4695614D9B80A0010EDDF /* main.m in Sources */,
+				96B4695A14D9B80A0010EDDF /* TockAppDelegate.m in Sources */,
+				96B4696014D9B80A0010EDDF /* TockViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96B4695214D9B80A0010EDDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B4695314D9B80A0010EDDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96B4695B14D9B80A0010EDDF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B4695C14D9B80A0010EDDF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96B4696114D9B80A0010EDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		96B4696214D9B80A0010EDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96B4696414D9B80A0010EDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TockTest/TockTest-Prefix.pch";
+				INFOPLIST_FILE = "TockTest/TockTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96B4696514D9B80A0010EDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TockTest/TockTest-Prefix.pch";
+				INFOPLIST_FILE = "TockTest/TockTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96B4693F14D9B80A0010EDDF /* Build configuration list for PBXProject "TockTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B4696114D9B80A0010EDDF /* Debug */,
+				96B4696214D9B80A0010EDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B4696314D9B80A0010EDDF /* Build configuration list for PBXNativeTarget "TockTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B4696414D9B80A0010EDDF /* Debug */,
+				96B4696514D9B80A0010EDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96B4693C14D9B80A0010EDDF /* Project object */;
+}
