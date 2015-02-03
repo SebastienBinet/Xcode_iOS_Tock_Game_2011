@@ -15,6 +15,18 @@
 		96B4695A14D9B80A0010EDDF /* TockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B4695914D9B80A0010EDDF /* TockAppDelegate.m */; };
 		96B4695D14D9B80A0010EDDF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B4695B14D9B80A0010EDDF /* MainStoryboard.storyboard */; };
 		96B4696014D9B80A0010EDDF /* TockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B4695F14D9B80A0010EDDF /* TockViewController.m */; };
+		96B4696714D9B8210010EDDF /* IMG_2543__72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 96B4696614D9B8210010EDDF /* IMG_2543__72x72.png */; };
+		96B4696914D9B86C0010EDDF /* IMG_2543.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 96B4696814D9B86C0010EDDF /* IMG_2543.JPG */; };
+		96E3257C14DC19E400FC386A /* BilleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E3257B14DC19E400FC386A /* BilleView.m */; };
+		96E3257F14DC202B00FC386A /* IMG_2521.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 96E3257E14DC202B00FC386A /* IMG_2521.JPG */; };
+		96E3258114DC228400FC386A /* IMG_2521.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E3258014DC228400FC386A /* IMG_2521.png */; };
+		96E3258314DC2B4D00FC386A /* IMG_2522.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E3258214DC2B4D00FC386A /* IMG_2522.png */; };
+		96E3258914DC7C7800FC386A /* IMG_2523.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E3258414DC7C7700FC386A /* IMG_2523.png */; };
+		96E3258A14DC7C7800FC386A /* IMG_2524.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E3258514DC7C7700FC386A /* IMG_2524.png */; };
+		96E3258B14DC7C7800FC386A /* IMG_2527.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E3258614DC7C7700FC386A /* IMG_2527.png */; };
+		96E3258C14DC7C7800FC386A /* IMG_2532.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E3258714DC7C7700FC386A /* IMG_2532.png */; };
+		96E3258D14DC7C7800FC386A /* IMG_2534.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E3258814DC7C7800FC386A /* IMG_2534.png */; };
+		96E3258F14DC7D8800FC386A /* IMG_2540.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E3258E14DC7D8800FC386A /* IMG_2540.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +34,28 @@
 		96B4694914D9B80A0010EDDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96B4694B14D9B80A0010EDDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		96B4694D14D9B80A0010EDDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		96B4695114D9B80A0010EDDF /* TockTest-Info.plist */ = {isa = PBXFileReference; path = "TockTest-Info.plist"; sourceTree = "<group>"; };
+		96B4695114D9B80A0010EDDF /* TockTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TockTest-Info.plist"; sourceTree = "<group>"; };
 		96B4695314D9B80A0010EDDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96B4695514D9B80A0010EDDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		96B4695714D9B80A0010EDDF /* TockTest-Prefix.pch */ = {isa = PBXFileReference; path = "TockTest-Prefix.pch"; sourceTree = "<group>"; };
-		96B4695814D9B80A0010EDDF /* TockAppDelegate.h */ = {isa = PBXFileReference; path = TockAppDelegate.h; sourceTree = "<group>"; };
+		96B4695714D9B80A0010EDDF /* TockTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TockTest-Prefix.pch"; sourceTree = "<group>"; };
+		96B4695814D9B80A0010EDDF /* TockAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TockAppDelegate.h; sourceTree = "<group>"; };
 		96B4695914D9B80A0010EDDF /* TockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TockAppDelegate.m; sourceTree = "<group>"; };
 		96B4695C14D9B80A0010EDDF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		96B4695E14D9B80A0010EDDF /* TockViewController.h */ = {isa = PBXFileReference; path = TockViewController.h; sourceTree = "<group>"; };
+		96B4695E14D9B80A0010EDDF /* TockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TockViewController.h; sourceTree = "<group>"; };
 		96B4695F14D9B80A0010EDDF /* TockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TockViewController.m; sourceTree = "<group>"; };
+		96B4696614D9B8210010EDDF /* IMG_2543__72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2543__72x72.png; sourceTree = "<group>"; };
+		96B4696814D9B86C0010EDDF /* IMG_2543.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2543.JPG; sourceTree = "<group>"; };
+		96E3257A14DC19E400FC386A /* BilleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BilleView.h; sourceTree = "<group>"; };
+		96E3257B14DC19E400FC386A /* BilleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BilleView.m; sourceTree = "<group>"; };
+		96E3257E14DC202B00FC386A /* IMG_2521.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2521.JPG; sourceTree = "<group>"; };
+		96E3258014DC228400FC386A /* IMG_2521.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2521.png; sourceTree = "<group>"; };
+		96E3258214DC2B4D00FC386A /* IMG_2522.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2522.png; sourceTree = "<group>"; };
+		96E3258414DC7C7700FC386A /* IMG_2523.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2523.png; sourceTree = "<group>"; };
+		96E3258514DC7C7700FC386A /* IMG_2524.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2524.png; sourceTree = "<group>"; };
+		96E3258614DC7C7700FC386A /* IMG_2527.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2527.png; sourceTree = "<group>"; };
+		96E3258714DC7C7700FC386A /* IMG_2532.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2532.png; sourceTree = "<group>"; };
+		96E3258814DC7C7800FC386A /* IMG_2534.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2534.png; sourceTree = "<group>"; };
+		96E3258E14DC7D8800FC386A /* IMG_2540.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2540.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +75,17 @@
 		96B4693A14D9B80A0010EDDF = {
 			isa = PBXGroup;
 			children = (
+				96B4696614D9B8210010EDDF /* IMG_2543__72x72.png */,
+				96B4696814D9B86C0010EDDF /* IMG_2543.JPG */,
+				96E3257E14DC202B00FC386A /* IMG_2521.JPG */,
+				96E3258014DC228400FC386A /* IMG_2521.png */,
+				96E3258214DC2B4D00FC386A /* IMG_2522.png */,
+				96E3258414DC7C7700FC386A /* IMG_2523.png */,
+				96E3258514DC7C7700FC386A /* IMG_2524.png */,
+				96E3258614DC7C7700FC386A /* IMG_2527.png */,
+				96E3258714DC7C7700FC386A /* IMG_2532.png */,
+				96E3258814DC7C7800FC386A /* IMG_2534.png */,
+				96E3258E14DC7D8800FC386A /* IMG_2540.png */,
 				96B4694F14D9B80A0010EDDF /* TockTest */,
 				96B4694814D9B80A0010EDDF /* Frameworks */,
 				96B4694614D9B80A0010EDDF /* Products */,
@@ -82,6 +118,8 @@
 				96B4695B14D9B80A0010EDDF /* MainStoryboard.storyboard */,
 				96B4695E14D9B80A0010EDDF /* TockViewController.h */,
 				96B4695F14D9B80A0010EDDF /* TockViewController.m */,
+				96E3257A14DC19E400FC386A /* BilleView.h */,
+				96E3257B14DC19E400FC386A /* BilleView.m */,
 				96B4695014D9B80A0010EDDF /* Supporting Files */,
 			);
 			path = TockTest;
@@ -150,6 +188,17 @@
 			files = (
 				96B4695414D9B80A0010EDDF /* InfoPlist.strings in Resources */,
 				96B4695D14D9B80A0010EDDF /* MainStoryboard.storyboard in Resources */,
+				96B4696714D9B8210010EDDF /* IMG_2543__72x72.png in Resources */,
+				96B4696914D9B86C0010EDDF /* IMG_2543.JPG in Resources */,
+				96E3257F14DC202B00FC386A /* IMG_2521.JPG in Resources */,
+				96E3258114DC228400FC386A /* IMG_2521.png in Resources */,
+				96E3258314DC2B4D00FC386A /* IMG_2522.png in Resources */,
+				96E3258914DC7C7800FC386A /* IMG_2523.png in Resources */,
+				96E3258A14DC7C7800FC386A /* IMG_2524.png in Resources */,
+				96E3258B14DC7C7800FC386A /* IMG_2527.png in Resources */,
+				96E3258C14DC7C7800FC386A /* IMG_2532.png in Resources */,
+				96E3258D14DC7C7800FC386A /* IMG_2534.png in Resources */,
+				96E3258F14DC7D8800FC386A /* IMG_2540.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +212,7 @@
 				96B4695614D9B80A0010EDDF /* main.m in Sources */,
 				96B4695A14D9B80A0010EDDF /* TockAppDelegate.m in Sources */,
 				96B4696014D9B80A0010EDDF /* TockViewController.m in Sources */,
+				96E3257C14DC19E400FC386A /* BilleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +326,7 @@
 				96B4696514D9B80A0010EDDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
