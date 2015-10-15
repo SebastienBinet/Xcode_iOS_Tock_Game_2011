@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>76B960B2-028B-40C9-AB11-5DAF7429178D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TockTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>782A1951D19CBC070FCF9DD470482CF044FDEE47</key>
+		<string>https://github.com/SebastienBinet/Xcode_iOS_Tock_Game_2011.git</string>
+		<key>8BBE9FAA532FCDF79EAE4C0CEC248550BEDF3E16</key>
+		<string>https://github.com/SebastienBinet/Unity3D_iOS__Paint_All_game_3D_gyro_2014.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TockTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>782A1951D19CBC070FCF9DD470482CF044FDEE47</key>
+		<string>../..</string>
+		<key>8BBE9FAA532FCDF79EAE4C0CEC248550BEDF3E16</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SebastienBinet/Xcode_iOS_Tock_Game_2011.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>782A1951D19CBC070FCF9DD470482CF044FDEE47</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8BBE9FAA532FCDF79EAE4C0CEC248550BEDF3E16</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>782A1951D19CBC070FCF9DD470482CF044FDEE47</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Xcode_iOS_Tock_Game_2011</string>
+		</dict>
+	</array>
+</dict>
+</plist>
